@@ -1,0 +1,331 @@
+@media only screen and (max-width: 1700px){
+    .statement-title h4 {
+        font-size: 14px;
+    }
+
+    .timer-set-area .single-timer::after {
+        left: 110%;
+    }
+}
+
+@media only screen and (max-width: 1566px){
+    .statement-video span img {
+        width: 80px;
+    }
+    .timer-set-area .single-timer::after {
+        left: 100%;
+    }
+    .card-list ul li .list-title h5 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1490px){
+    .statement-title h4 {
+        font-size: 13px;
+    }
+
+
+    .card-list ul li .list-number span {
+        font-size: 14px;
+        height: 22px;
+        width: 22px;
+        line-height: 22px;
+    }
+
+    .card-list ul li .list-number {
+        float: left;
+        height: 43px;
+        width: 43px;
+        line-height: 43px;
+    }
+    .card-list ul::before {
+        width: 16%;
+    }
+    .card-list .list-area {
+        padding: 7px 8px;
+    }
+    .card-list ul li::before {
+        left: 27px;
+    }
+    .card-list ul li:nth-child(1)::before, 
+    .card-list ul li:nth-child(2)::before, 
+    .card-list ul li:nth-child(3)::before, 
+    .card-list ul li:nth-child(4)::before, 
+    .card-list ul li:nth-child(5)::before, 
+    .card-list ul li:nth-child(6)::before, 
+    .card-list ul li:nth-child(7)::before, 
+    .card-list ul li:nth-child(8)::before, 
+    .card-list ul li:nth-child(8)::before, 
+    .card-list ul li:nth-child(10)::before, 
+    .card-list ul li:nth-child(11)::before, 
+    .card-list ul li:nth-child(12)::before, 
+    .card-list ul li:nth-child(13)::before, 
+    .card-list ul li:nth-child(14)::before, 
+    .card-list ul li:nth-child(15)::before, 
+    .card-list ul li:nth-child(16)::before, 
+    .card-list ul li:nth-child(17)::before, 
+    .card-list ul li:nth-child(18)::before, 
+    .card-list ul li:nth-child(19)::before, 
+    .card-list ul li:nth-child(20)::before {
+        left: 27px;
+        
+    }
+    .card-list ul li .list-title h5 {
+        width: 77%;
+    }
+    .list-progress {
+        padding: 8px 12px 10px 0px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1390px){
+
+
+    .single-row button {
+        font-size: 12px;
+    }
+    .single-row .default-input input, .single-row .default-input input {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .timer-set-area .single-timer::after {
+        left: 90%;
+    }
+    .card-list ul li .list-title h5 {
+        font-size: 13px;
+    }
+    .page-titie .page-title-cercle {
+        margin-right: 20%;
+    }
+
+}
+
+@media only screen and (max-width: 1240px){
+    .timer-set-area .single-timer::after {
+        left: 79%;
+    }
+    .page-title-btn a {
+        font-size: 18px;
+    }
+    .save-btn-area a {
+        font-size: 14px;
+    }
+    .save-btn-area {
+        width: 100px;
+        height: 31px;
+    }
+    .statement-save {
+        width: 66%;
+    }
+    .statement-save span {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    .statement-save input {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .page-titie h3 {
+        font-size: 20px;
+    }
+    .timer-section-title h4 {
+        font-size: 16px;
+    }
+    .timer-section-title p {
+        font-size: 13px;
+    }
+    .timer-button ul li {
+        height: 44px;
+        width: 44px;
+        line-height: 44px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .page-titie .page-title-cercle {
+        margin-right: 10%;
+    }
+    .timer-set-area .single-timer::after {
+        left: 124%;
+    }
+    .timer-section,
+    .card-list{
+        margin-bottom: 30px;
+    }
+    .statement-title h4 {
+        font-size: 15px;
+    }
+
+    .page-title-btn a {
+        padding: 2px 20px;
+        margin-right: 16px;
+    }
+    svg.header-progress-1 {
+        max-width: 50px;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .statement {
+        height: 630px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    .timer-set-area .single-timer::after {
+        left: 210%;
+    }
+    .page-titie h3 {
+        font-size: 14px;
+    }
+    .page-titie .page-title-cercle {
+        margin-right: 9%;
+    }
+    .page-title-btn a {
+        padding: 2px 14px;
+        font-size: 14px;
+    }
+    .save-btn-area {
+        width: 91px;
+        height: 28px;
+    }
+    .save-btn-area a {
+        font-size: 13px;
+        padding: 5px 17px;
+    }
+    .card-list ul::before {
+        width: 9.5%;
+    }
+    .timer-section-title h4 {
+        font-size: 14px;
+    }
+    .timer-section-title p {
+        font-size: 12px;
+        line-height: 11px;
+    }
+}
+
+
+@media only screen and (max-width: 685px){
+    .page-titie .page-title-cercle {
+        margin-right: 28%;
+        margin-bottom: 20px;
+    }
+    .video-list-aria {
+        height: 450PX;
+    }
+    .video-list {
+        height: 450px;
+    }
+    .video-are {
+        height: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 660px){
+
+    .statement-title h4 {
+        font-size: 14px;
+    }
+
+    
+
+    .statement-save span {
+        font-size: 13px;
+        padding: 7px 10px;
+    }
+    .statement-save input {
+        padding: 7px 10px;
+        font-size: 13px;
+    }
+    .timer-set-area .single-timer::after {
+        left: 150%;
+    }
+    .card-list ul::before {
+        width: 11%;
+    }
+
+        
+    .circle_percent {
+        font-size: 45px;
+        width: 45px;
+        height: 45px;
+    }
+    .circle_inbox {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 35px;
+        height: 35px;
+    }
+    .percent_text {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 580px){
+
+    .card-list ul::before {
+        width: 14%;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .page-titie .page-title-cercle {
+        margin-right: 11%;
+    }
+    .statement-title h4 {
+        width: 100%;
+    }
+
+    .statement-save {
+        width: 90%;
+    }
+
+    .card-list ul li .list-number {
+        float: left;
+        height: 38px;
+        width: 38px;
+        line-height: 38px;
+    }
+    .card-list ul li .list-number span {
+        font-size: 12px;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+    }
+
+    .card-list ul li:nth-child(1)::before, .card-list ul li:nth-child(2)::before, .card-list ul li:nth-child(3)::before, .card-list ul li:nth-child(4)::before, .card-list ul li:nth-child(5)::before, .card-list ul li:nth-child(6)::before, .card-list ul li:nth-child(7)::before, .card-list ul li:nth-child(8)::before, .card-list ul li:nth-child(8)::before, .card-list ul li:nth-child(10)::before, .card-list ul li:nth-child(11)::before, .card-list ul li:nth-child(12)::before, .card-list ul li:nth-child(13)::before, .card-list ul li:nth-child(14)::before, .card-list ul li:nth-child(15)::before, .card-list ul li:nth-child(16)::before, .card-list ul li:nth-child(17)::before, .card-list ul li:nth-child(18)::before, .card-list ul li:nth-child(19)::before, .card-list ul li:nth-child(20)::before {
+        left: 24px;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 460px){
+
+    .page-titie .page-title-cercle {
+        margin-right: 0;
+    }
+    .statement-save span {
+        padding: 7px 3px;
+    }
+    .card-list ul li .list-title h5 {
+        font-size: 11px;
+    }
+    .card-list ul li .list-title i {
+        line-height: 48px;
+        font-size: 16px;
+    }
+    
+}

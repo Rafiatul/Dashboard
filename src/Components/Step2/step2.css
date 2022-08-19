@@ -1,0 +1,420 @@
+/*------------------- Step 3 page 1 start----------------------- */
+
+.step2{
+    width: 100%;
+    height: 768px;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+
+.step2-area{
+    background: linear-gradient(151.05deg, #EBF2F7 13.27%, #F2F6F9 83.27%);
+    box-shadow: 0px 0px 18px rgba(235, 176, 30, 0.75);
+    border-radius: 3px;
+    padding: 10px 25px 20px 22px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.step2-title {
+	position: relative;
+	padding: 10px 0 22px 0;
+	overflow: hidden;
+}
+
+.step2-title::after{
+    content: '';
+    height: 1px; 
+    width: 84%; 
+    background: #CEDAE9;
+    position: absolute;
+    left: 0; 
+    bottom: 0; 
+
+}
+
+.step2-title h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #697094; 
+    float: left;
+    overflow: hidden;
+
+}
+
+
+.step2-video {
+	position: absolute;
+	right: -7px;
+	top: -2px;
+	box-shadow: 13px -15px 0 7.5px #f0f4f8;
+}
+.step2-video span {
+	background: #f0f4f8;
+	box-shadow: inset 4px -4px 6px #f0bf256b;
+	float: right;
+	overflow: hidden;
+	padding: 0 0 8px 10px;
+	margin-top: -4px;
+}
+
+.step2-video span img:hover{
+    transform: scale(1.1);
+}
+
+.step2-video span img{
+    width: 100px;
+    height: auto;
+    transition: .3s;
+}
+
+
+
+
+/*-------  step2-form ---------- */
+
+.step2-form {
+	height: 90%;
+	overflow: hidden;
+}
+
+.step2-form label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #545C81;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.step2-form select{
+    width: 48%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474E74; 
+    background: linear-gradient(151.05deg, #EBF2F7 13.27%, #F2F6F9 83.27%);
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 0.8), 3px 3px 12px rgba(166, 180, 200, 0.4);
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+}
+
+.step2-form input[type=text]{
+    width: 48%;
+    height: 40px;
+   border: none;
+   color: #4F5369;
+   font-size: 15px;
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.75), inset 3px 3px 10px rgba(166, 180, 200, 0.4);
+}
+.step2-form input[type=text]:focus{
+    padding-left: 15px;
+    color: black;
+    border: none;
+    
+}
+.step2-form select:focus,
+.step2-form textarea:focus{
+    outline: none;
+}
+
+.step2-form select option{
+    background:  #F2F6F9;
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 0.8), 3px 3px 12px rgba(166, 180, 200, 0.4);
+    
+}
+.step2-form textarea{
+    font-size: 16px; 
+    width: 100%;
+    resize: none;
+    height: 80px;
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.75), inset 3px 3px 10px rgba(166, 180, 200, 0.4);
+    border-radius: 5px;
+    border: none; 
+    font-size: 15px; 
+    color: #4F5369; 
+    padding: 10px 15px;  
+}
+
+
+
+/* step2-save */
+.step2-save{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.step2-save input{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8), 6px 6px 24px rgba(166, 180, 200, 0.4), inset -4.55556px -4.55556px 7.59259px rgba(255, 255, 255, 0.75), inset 3.03704px 3.03704px 7.59259px rgba(166, 180, 200, 0.4);
+    border-radius: 3px;
+    padding: 10px 10px; 
+    margin-top: 20px;
+    border: 1px solid#D9961959;
+    color: #E28D0E; 
+    cursor: default;
+}
+.step2-save span{
+    width: 100%;
+    border-radius: 5px;  
+    border-radius: 3px;
+    padding: 10px 10px; 
+    border: none;
+    background: linear-gradient(-180.17deg, #E59A13 4.98%, #EAB429 94.88%); 
+    box-shadow: -12px 12px 20px rgba(255, 255, 255, 0.8), 6px 6px 24px rgba(166, 180, 200, 0.4);
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff; 
+    font-weight: 400; 
+    transform: rotate(6.57deg);
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    cursor: pointer;
+ 
+}
+.step2-save span:hover{
+    background: linear-gradient(-180.17deg, #da8f04 4.98%, #e4ac1f 94.88%); 
+    
+}
+
+
+
+
+
+
+
+.step2-form {
+	height: 90%;
+	overflow: hidden;
+}
+
+.step2-form label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #545C81;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.step2-form select{
+    width: 45%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #474E74; 
+    background: linear-gradient(151.05deg, #EBF2F7 13.27%, #F2F6F9 83.27%);
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 0.8), 3px 3px 12px rgba(166, 180, 200, 0.4);
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+}
+.step2-form input[type=text]{
+    width: 45%;
+    height: 40px;
+   border: none;
+   color: #4F5369;
+   font-size: 15px;
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.75), inset 3px 3px 10px rgba(166, 180, 200, 0.4);
+}
+.step2-form input[type=text]:focus{
+    padding-left: 15px;
+    color: black;
+    border: none;
+    
+}
+.step2-form select:focus,
+.step2-form textarea:focus{
+    outline: none;
+}
+
+.step2-form select option{
+    background:  #F2F6F9;
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 0.8), 3px 3px 12px rgba(166, 180, 200, 0.4);
+    
+}
+.step2-form textarea{
+    font-size: 16px; 
+    width: 100%;
+    resize: none;
+    height: 80px;
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.75), inset 3px 3px 10px rgba(166, 180, 200, 0.4);
+    border-radius: 5px;
+    border: none; 
+    font-size: 15px; 
+    color: #4F5369; 
+    padding: 10px 15px;  
+}
+
+
+
+/* step2-save */
+.step2-save{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.step2-save input{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8), 6px 6px 24px rgba(166, 180, 200, 0.4), inset -4.55556px -4.55556px 7.59259px rgba(255, 255, 255, 0.75), inset 3.03704px 3.03704px 7.59259px rgba(166, 180, 200, 0.4);
+    border-radius: 3px;
+    padding: 10px 10px; 
+    margin-top: 20px;
+    border: 1px solid#D9961959;
+    color: #E28D0E; 
+    cursor: default;
+}
+.step2-save span{
+    width: 100%;
+    border-radius: 5px;  
+    border-radius: 3px;
+    padding: 10px 10px; 
+    border: none;
+    background: linear-gradient(-180.17deg, #E59A13 4.98%, #EAB429 94.88%); 
+    box-shadow: -12px 12px 20px rgba(255, 255, 255, 0.8), 6px 6px 24px rgba(166, 180, 200, 0.4);
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff; 
+    font-weight: 400; 
+    transform: rotate(6.57deg);
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    cursor: pointer;
+ 
+}
+.step2-save span:hover{
+    background: linear-gradient(-180.17deg, #da8f04 4.98%, #e4ac1f 94.88%); 
+    
+}
+
+.step2-form input[type="text"] {
+	height: 40px;
+	border: none;
+	color: #4F5369;
+	font-size: 15px;
+	background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+	box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.75), inset 3px 3px 10px rgba(166, 180, 200, 0.4);
+	outline: none;
+}
+
+.tagline-input ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.step2-form {
+	height: 90%;
+	overflow: hidden;
+}
+
+.tagline-input ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.tagline-input ul li input{
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: inset -3px -3px 5px rgba(255, 255, 255, 0.75), inset 3px 3px 5px rgba(166, 180, 200, 0.6);
+    border-radius: 3px;
+    font-size: 20px;
+    height: 18px; 
+    width: 18px; 
+    margin: 8px 0;
+}
+
+
+.tagline-input ul li label{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474E74;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+
+.tagline-title h4,
+.text-area label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #545C81;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+.step2-form textarea{
+    font-size: 16px; 
+    width: 100%;
+    resize: none;
+    height: 80px;
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.75), inset 3px 3px 10px rgba(166, 180, 200, 0.4);
+    border-radius: 5px;
+    border: none; 
+    font-size: 15px; 
+    color: #4F5369; 
+    padding: 10px 15px;  
+}
+
+.step2-form textarea:focus{
+    outline: none;
+}
+
+
+.devider{
+    margin: 36px 0 10px 0;
+    position: relative;
+}
+
+.devider hr{
+    background-color: #a1abb7;
+}
+.devider span{
+    position: absolute;
+    top: -12px; 
+    left: 50%;
+    transform: translate(-50%);
+    background: #EFF4F8;
+    padding: 5px 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #545C81;
+}
+.for-width select:nth-child(2){
+    width: 100%;
+}
+.for-width input{
+    width: 100%;
+}
+#woman{
+    width: 100%;
+}
+
+/*------------------- Step 3 page 1 end----------------------- */

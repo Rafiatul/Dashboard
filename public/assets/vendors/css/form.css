@@ -1,0 +1,17 @@
+#top_save{
+    transition: 2s;
+}
+
+.top_save{
+    position: absolute !important;
+    top: 90px !important;
+}
+#bottom_gen_btn{
+    transition: 2s;
+    text-align: center
+}
+
+.bottom_gen_btn{
+    position: absolute !important;
+    top: 400px !important;
+}
